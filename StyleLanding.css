@@ -1,0 +1,31 @@
+.first{
+    display:flex;
+    background: burlywood;
+    justify-content: center;
+}
+.first .firstheader{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: brown;
+}
+.second{
+    height: 500px;
+    width: 686px;
+    display:flex;
+    justify-content: space-between;
+}
+.second .ingredients{
+    width:343px;
+    flex: 1 1 auto;
+    background: lightsalmon;
+}
+.second .steps{
+    width:343px;
+    flex: 1 1 auto;
+    background: lightpink;
+}
+img{
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+    border-radius: 12px;
+}
